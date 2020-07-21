@@ -12,7 +12,7 @@ const App = () => {
   useEffect(() => {
     const fetchData = async () => {
       const result = await axios(
-        "https://fx-currency-converter.firebaseapp.com/api/v1/currencies/"
+        "https://western-union-2d02e.firebaseapp.com/api/v1/currencies/"
       );
       setCurrencies(result.data);
     };
