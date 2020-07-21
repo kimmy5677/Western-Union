@@ -66,7 +66,7 @@ const CashTable = props => {
   const update = async (code, value) => {
     if (props.action === "buy") {
       const result = await axios.put(
-        `https://fx-currency-converter.firebaseapp.com/api/v1/cash/currencies/${code}`,
+        `https://western-union-2d02e.firebaseapp.com/api/v1/cash/currencies/${code}`,
         {
           cash: {
             buy: value
@@ -77,7 +77,7 @@ const CashTable = props => {
       setMessage(result.data.success_message);
     } else {
       const result = await axios.put(
-        `https://fx-currency-converter.firebaseapp.com/api/v1/cash/currencies/${code}`,
+        `https://western-union-2d02e.firebaseapp.com/api/v1/cash/currencies/${code}`,
         {
           cash: {
             sell: value
