@@ -1,0 +1,105 @@
+.select--arrow {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.select--container {
+    width: 100%;
+    margin: 0;
+    height: 55px;
+    border: 1px solid #ced4da;
+    box-sizing: border-box;
+    display: inline-block;
+    background: white;
+    background-clip: padding-box;
+    border-radius: .3rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.selected {
+    /* background: #54C6EB; */
+}
+
+.currencies {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.currencies:hover {
+    /* background: #E8E8E8; */
+}
+
+.select--selected-item {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding: 0px 0 0 5px;
+    vertical-align: middle;
+}
+
+.flag {
+
+    width: 45px;
+    height: 45px;
+}
+
+
+
+.select--items {
+    background: white;
+    z-index: 1;
+    margin-top: 10px;
+    position: absolute;
+    border-radius: .3rem;
+    padding: 8px;
+
+}
+
+.select--arrow-down {
+    position: absolute;
+    top: 12px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid #993368;
+}
+
+.select--arrow-up {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #993368;
+}
+
+
+.currency-block {
+    margin-left: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.currency-code {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+    color: #993368;
+}
+
+.currency-name {
+    font-size: 12px;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    color: #280A3B;
+}

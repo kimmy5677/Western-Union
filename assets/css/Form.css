@@ -1,0 +1,69 @@
+.card {
+    background: #93245e;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    color: white;
+    box-shadow: 3px 2px 10px 4px rgba(0, 0, 0, 0.18);
+}
+
+.card-title {
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 768px) {
+    .card-title {
+
+        font-size: 18px;
+    }
+}
+
+
+hr {
+    background: #B1467D;
+    height: 2px;
+}
+
+
+.convert-btn {
+    background: #FBCF57;
+    font-family: 'Archivo', sans-serif !important;
+    font-size: 22px;
+    text-transform: uppercase;
+    height: 55px;
+    font-weight: bold;
+    color: #993368;
+    border: none;
+}
+
+.reserve-btn {
+    font-weight: bold;
+    background: #FBCF57;
+    color: #993368;
+    border-radius: 5px !important;
+    font-size: 16px;
+    font-family: 'Archivo', sans-serif;
+    text-transform: uppercase;
+    border: none;
+}
+
+
+
+
+
+.amount-input {
+    color: #993368 !important;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    height: 55px;
+    font-weight: bold;
+
+}
+
+.cancel-btn {
+    border: none;
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}

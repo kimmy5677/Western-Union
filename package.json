@@ -1,0 +1,56 @@
+{
+  "name": "wp-currency-converter",
+  "version": "1.0.0",
+  "description": "Reactjs currency converter plugin for wordpress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --colors --watch --mode=development",
+    "prod": "webpack --progress --colors -p --config webpack.config.js --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gopangolin/wp-currency-converter.git"
+  },
+  "keywords": [
+    "wordpress",
+    "react",
+    "plugin",
+    "webpack"
+  ],
+  "author": "SUPERUSER41",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/gopangolin/wp-currency-converter/issues"
+  },
+  "homepage": "https://github.com/gopangolin/wp-currency-converter#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "css-loader": "^3.2.0",
+    "isomorphic-fetch": "^2.2.1",
+    "moment": "^2.24.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-dom": "^16.5.2",
+    "react-redux": "^7.1.1",
+    "react-switch": "^5.0.1",
+    "redux": "^4.0.4",
+    "style-loader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.6.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-react": "^7.11.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
