@@ -22,7 +22,7 @@ const App = () => {
 
   return (
     <div className="container mt-5">
-      <h1>FX Trader Currencies</h1>
+      <h1>WU Currencies</h1>
       <hr />
       <div className="row mt-5">
         <div className="col-6">
