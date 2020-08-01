@@ -27,12 +27,12 @@ const App = () => {
       <div className="row mt-5">
         <div className="col-6">
           <h2>Cash Rates</h2>
-          <small className="text-muted">Edit Cash Rates</small>
+          <small className="text-muted">Edit Cashh Rates</small>
           <br /> <br />
           <Tab.Container id="left-tabs-example" defaultActiveKey="first">
             <Nav variant="pills">
               <Nav.Item>
-                <Nav.Link eventKey="first">Our Buying Rates</Nav.Link>
+                <Nav.Link eventKey="first">Our Buyingg Rates</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link eventKey="second">Our Selling Rates</Nav.Link>
